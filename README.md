@@ -2,7 +2,7 @@
 
 ### In what way traditional synchronous form preserves data during server routing?
 
-#### 1. Chrome 103 Windows 11:
+#### 1. Chrome 103, Windows 11:
 
 1.1. Data is preserved when navigating via browser's back & forward buttons (even for password input [1] and even when form has attribute: autocomplete="off" [2])
 
@@ -14,7 +14,7 @@
 
 [2] autocomplete="off" only disables suggestions from browser after focusing form input
 
-#### 2. Firefox 102 Windows 11:
+#### 2. Firefox 102, Windows 11:
 
 2.1. Like in 1.1
 
