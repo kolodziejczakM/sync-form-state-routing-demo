@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form page</title>
+  </head>
+  <body>
+    <form action="/submission" method="post" autocomplete="off">
+      <label>
+        Login
+        <input name="login" type="text" />
+      </label>
+      <label>
+        Password
+        <input name="password" type="password" />
+      </label>
+      <div>
+        <label>Sex</label>
+        <label>
+          Man
+          <input type="radio" name="sex" value="man" />
+        </label>
+        <label>
+          Woman
+          <input type="radio" name="sex" value="woman" />
+        </label>
+        <label>
+          Other
+          <input type="radio" name="sex" value="other" />
+        </label>
+      </div>
+
+      <label>
+        Terms agree
+        <input type="checkbox" name="termsAgree" />
+      </label>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
